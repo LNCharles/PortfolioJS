@@ -1,0 +1,11 @@
+.flexbox .redirectors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+
+
+.flexbox .redirectors .button  {
+    width: auto;
+    height: 7%;
+}

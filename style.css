@@ -1,0 +1,73 @@
+@import url("components/container.css");
+@import url("components/buttons.css");
+@import url("components/avatar.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+.flexbox {
+    margin-top: 0%;
+    height: 30%;
+}
+
+
+.titre {
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+}
+
+.intro-image p {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+}
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+}
+
+.presentation {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+.separation p {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.d-flex .card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+.d-flex .card-resume {
+    font-family: 'EB Garamond', serif;
+}
+
+.footer-appear h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+footer p {
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.black {
+    animation: fadeIn 0.5s;
+    color: black;
+}
+
+.transparent {
+    color: transparent;
+}
+
